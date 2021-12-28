@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://wallpapercave.com/wp/wp2752752.jpg");
+    background-color:#E5E5E5;
+    margin:0;
+    height:100vh;
+    width:100vw;
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover;
+    text-decoration-color: hotpink;
+    /* background-size: 300px 100px; */
+}
+  
+
+.login-div {
+    background-color: rgb(122 33 49 / 72%);
+}
+.login-div{
+    height: 550;
+width: 600px;
+/* margin-left:-5% */
+/* left: 440px; */
+/* top: 93px; */
+/* margin-left:auto; */
+border-radius: 15px;
+padding: 40px, 91px, 40px, 91px;
+border:2px solid black;
+box-shadow: 12px 12px 12px 12px;
+background-color: rgba(83, 153, 233, 0.562);
+background-color:rgb(122 33 49 / 72%);
+/* margin-left:15%; */
+
+
+}
+.margin-left{
+    margin-left:15%;
+}
+.logo{
+    border: 3px solid #3818bd;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin:0 auto;
+    background-image:url("https://media-exp1.licdn.com/dms/image/C4E0BAQFbHu_qNnhX7Q/company-logo_200_200/0/1617785969156?e=2159024400&v=beta&t=9HwBaC2cKpJeMKLwR_XbWlFDxivlNx5DOX7174OagU8");
+    background-size: 104%;
+    /* filter: grayscale(100%); */
+
+}
+.signin-button :hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+    background-color: tomato;
+  }
+.username :hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+.logo:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  .title:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  .icon:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+
+.w{
+    color: white;
+}
+.p{
+    font-size: 110%;
+    color:white;
+    font-style: italic;
+
+    
+}
+.title{
+    text-align:center;
+    font-size: 180%;
+    padding-top:3px;
+    font-style: italic;
+    /* letter-spacing:1px; */
+
+}
+.sub-title{
+    text-align:center;
+    font-size:14px;
+    padding-top: 5px;
+    font-style: italic;
+
+    /* letter-spacing: 1px;; */
+}
+.fields{
+    margin-left:15%;
+    width:58%;
+    padding:-2px 4px 5px 5px;
+}
+.fields input{
+    border:none; 
+    outline:none;
+    background: none;
+     font-size:12px;
+    color:#555;
+    padding:9px 7px 1px 10px ;
+    text-align: left;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+.username,
+.password{
+    margin-bottom: 5%;
+    border-radius:25px;
+    box-shadow:inset 8px 8px 8px #cbced1,inset -8px -8px 8px #fff ;
+
+}
+.signin-button{
+    outline:none;
+    border:none;
+    cursor:pointer;
+    width:56%;
+    height:6%;
+    border-radius:30px;
+    margin-top: -3%;
+    /* font-size:20px; */
+    /* font-weight:34; */
+    font-family:"Lato",sana-serif;
+    color:cornsilk;
+    text-align:center;
+    background-color: darkblue;
+    box-shadow: darkgray;
+    margin-left:21%;
+}
+.signin-button:hover{
+    background-color: rgba(0, 0, 139, 0.76);
+
+    
+}
+.signin-button:active{
+    background-color: rgba(121, 73, 92, 0.76);
+
+    
+}
+
+.row-div{
+    display: flex;
+    flex-direction: row;
+    height: 7%;
+    width:71%;
+    /* border:2px solid black; */
+    justify-content: space-evenly;
+}
+.child{
+    height: 90%;
+    width:16%;
+    border:2px solid black;
+    background-color:#8080807d;
+    border:none;
+    border-radius: 24%;
+    box-shadow:inset 8px 8px 8px #cbced1,inset -8px -8px 8px #fff ;
+    text-align: center;
+
+
+}
+.child :hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border:2px solid black;
+    margin-top:auto;
+    margin-left: -265;
+
+}
+ /* .navbar{
+    display:flex;
+    flex-direction: row;
+    width:20%;
+    height:15%;
+    margin:auto;
+    border:2px solid black;
+    margin-top:2%;
+} */
+/* .icon{
+    width:200px;
+    /* float:left; */
+    /* height:20px; */
+    /* border:2px solid black; */
+/* } */ */
+
+.logoo{
+    height:10px;
+    width:20px;
+    /* height: 5rem;
+    width: 10rem; */
+}
+    /* .icon{ */
+    /* height:20px;
+    width:140px;
+     float:left;
+    padding-left:5%;
+    padding-top:2%; 
+    left: 0; */
+    .icon img{
+        height: 5rem;
+        width: 10rem; 
+
+    }
+    .icon {
+        position: absolute;
+        top: 2%;
+        right: 72rem;
+        width: 12rem;
+        height: 14rem;
+        /* border: 3px solid #73AD21; */
+    /* position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21; */
+  
+    /* width: 150px; */
+    /* height: 100%; */
+    /* position: fixed; */
+
+} 
